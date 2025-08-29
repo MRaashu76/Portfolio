@@ -1,10 +1,10 @@
-# Abhishek's Portfolio
+# Aashish's Portfolio
 
 Welcome to my personal portfolio! This website showcases my skills, projects, and experiences as a student passionate about computer technology.
 
 ## 🚀 About Me
 
-I'm Abhishek Kushwaha, a student at KIIT University pursuing a B.Tech in Computer Science and Engineering. I'm a self-motivated individual with a passion for technology and a vision to use it for positive change. I enjoy participating in workshops, hackathons, and programming competitions to continuously enhance my skills.
+I'm Aashish kumar das, a student at KIIT University pursuing a B.Tech in Computer Science and Engineering. I'm a self-motivated individual with a passion for technology and a vision to use it for positive change. I enjoy participating in workshops, hackathons, and programming competitions to continuously enhance my skills.
 
 ## ✨ Features
 
