@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hey, I'm Aashish</title>
+    <link rel="icon" type="image/jpg" href="images/F2.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
+
+    <link rel="stylesheet" class="alternate-style" title="pink" type="text/css" href="css/skins/pink.css" disabled>
+    <link rel="stylesheet" class="alternate-style"  title="blue" type="text/css" href="css/skins/blue.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="orange" type="text/css" href="css/skins/orange.css"disabled >
+    <link rel="stylesheet" class="alternate-style" title="yellow" type="text/css" href="css/skins/yellow.css" disabled >
+    <link rel="stylesheet" class="alternate-style" title="green" type="text/css" href="css/skins/green.css" disabled>
+    <link rel="stylesheet" type="text/css" href="css/styleSwitcher.css">
+
+    <style>
+        .marquee-container {
+            overflow: hidden;
+            width: 100%;
+            padding: 20px 0;
+        }
+        .marquee-content {
+            display: flex;
+            width: 200%; /* Duplicated content requires double the width */
+            animation: scroll 30s linear infinite;
+        }
+        .marquee-container:hover .marquee-content {
+            animation-play-state: paused; /* Pause animation when hovering over the container */
+        }
+        .testimonial-marquee-item {
+            flex-shrink: 0;
+            width: 25%; /* Each of the 4 items (2 original + 2 duplicates) takes up 1/4 of the 200% width, showing 2 at a time */
+            box-sizing: border-box;
+            padding: 0 15px; /* Creates space between testimonials */
+        }
+        /* CSS Animation for the scroll effect */
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%); /* Moves exactly the width of the original content */
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="main-container">
+     <div class="aside" >
+         <div class="logo">
+             <a href="#">Aashish</a>
+         </div>
+         <div class="nav-toggler">
+             <span></span>
+         </div>
+         <ul class="nav">
+             <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+             <li><a href="#about"><i class="fa fa-user"></i>About Me</a></li>
+             <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+             <li><a href="#projects"><i class="fa fa-briefcase"></i>Projects</a></li>
+             <li><a href="#clients"><i class="fa fa-users"></i>Clients</a></li>
+             <li><a href="#blog"><i class="fa fa-book"></i>Articles</a></li>
+             <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+         </ul>
+         <div class="copyright-text">
+             &copy; 2025 Official Aashish Kumar Das
+         </div>
+     </div>
+     <div class="main-content ">
+     <section class="home section active" id="home">
+         <div class="container">
+             <div class="intro">
+                 <img src="images/P1.png" alt="profile" class="shadow-dark">
+                 <h1>Aashish Kumar Das</h1>
+                 <p>Student</p>
+<div class="social-link">
+                     <a href="https://www.facebook.com/aashish.das.baniya"><i class="fa fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/itx_aashu76/"><i class="fa fa-instagram"></i></a>
+                     <a href="https://github.com/MRaashu76"><i class="fa fa-github"></i></a>
+                     <a href="https://x.com/AashuAx62387"><i class="fa fa-twitter"></i></a>
+                     <a href="https://www.linkedin.com/in/aashish-kumar-das-ba17372aa/"><i class="fa fa-linkedin"></i></a>  
+                     <a href="https://www.reddit.com/user/just-aashu/"><i class="fa fa-reddit"></i></a>
+                         
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="about section" id="about">
+         <div class="container">
+             <div class="row">
+                 <div class="section-title padd-15">
+                     <h2>About Me</h2>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="about-content padd-15">
+                     <div class="row">
+                         <div class="about-text padd-15">
+                             <h3>Aashish Kumar Das <span>- Student</span></h3>
+                             <p>Computer technology is my passion and I am always looking for an opportunity to enhance my knowledge in the tech field. I have participated in several workshops, seminars, hackathons, programming competitions and internships and I have gained valuable experience from them. I am a self-motivated individual with a vision to transform society and businesses positively through technology..</p>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="personal-info padd-15">
+                             <div class="row">
+                                 <div class="info-item padd-15">
+                                     <p>Date Of Birth : <span>29th Jan 2007</span></p>
+                                 </div>
+                                 <div class="info-item padd-15">
+                                     <p>Nationality : <span>Nepalese</span></p>
+                                 </div>
+                                 <div class="info-item padd-15">
+                                     <p>Email : <span>aashishkumards123@gmail.com</span></p>
+                                 </div>
+                                 <div class="info-item padd-15">
+                                     <p>Qualification : <span>B.tech in CSE Ongoing</span></p>
+                                 </div>
+                                 <div class="info-item padd-15">
+                                     <p class="abc">Contact No. : <span>+91 9234985402</span></p>
+                                 </div>
+                                 <div class="info-item padd-15">
+                                     <p> Hometown: <span>Birgunj-15,Nepal</span></p>
+                                 </div>
+                                 <div class="info-item padd-15">
+                                     <p> Current City: <span>Bhubaneswar Odisha</span></p>
+                                 </div>
+                                 <div class="info-item padd-15">
+                                     <p>Freelance : <span> Available</span></p>
+                                 </div>
+                             </div>
+                             <div class="row">
+                                 <div class="buttons padd-15">
+                                     <a href="https://kiitacin-my.sharepoint.com/:w:/r/personal/23053806_kiit_ac_in/_layouts/15/Doc.aspx?sourcedoc=%7B06BE29EC-72C8-42D8-AF98-4057FC5FD0C3%7D&file=Document%203.docx&action=editNew&mobileredirect=true&wdOrigin=WORDONLINE.SHELL%2CAPPHOME-WEB.UNAUTH%2CAPPHOME-WEB.SHELL.SIGNIN%2CAPPHOME-WEB.BANNER.NEWBLANK&wdPreviousSession=d1fd186c-6307-492e-b9c7-72e5e57ebf91&wdPreviousSessionSrc=AppHomeWeb&ct=1756462480030" class="btn">Download Resume</a>
+                                     <a href="https://www.linkedin.com/in/aashish-kumar-das-ba17372aa/" class="btn">Hire Me</a>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div class="skills padd-15">
+                             <div class="row">
+                                 <div class="skill-item padd-15">
+                                     <h5>HTML5,CSS3 </h5>
+                                     <div class="progress">
+                                         <div class="progress-in" style="width: 30%"></div>
+                                         <div
+                                         class="skill-percent">30%</div>
+                                     </div>
+                                 </div>
+                                 
+                                 <div class="skill-item padd-15">
+                                     <h5>Python</h5>
+                                     <div class="progress">
+                                         <div class="progress-in" style="width: 20%"></div>
+                                         <div
+                                         class="skill-percent">20%</div>
+                                     </div>
+                                 </div>
+                                 <div class="skill-item padd-15">
+                                     <h5>Wordpress </h5>
+                                     <div class="progress">
+                                         <div class="progress-in" style="width: 50%"></div>
+                                         <div
+                                         class="skill-percent">50%</div>
+                                     </div>
+                                 </div>
+                                 <div class="skill-item padd-15">
+                                     <h5>Teamwork</h5>
+                                     <div class="progress">
+                                         <div class="progress-in" style="width: 80%"></div>
+                                         <div
+                                         class="skill-percent">80%</div>
+                                     </div>
+                                 </div>
+                                 <div class="skill-item padd-15">
+                                     <h5> Video Editing</h5>
+                                     <div class="progress">
+                                         <div class="progress-in" style="width: 80%"></div>
+                                         <div
+                                         class="skill-percent">80%</div>
+                                     </div>
+                                 </div>
+                                 <div class="skill-item padd-15">
+                                     <h5>C,C# & C++</h5>
+                                     <div class="progress">
+                                         <div class="progress-in" style="width: 50%"></div>
+                                         <div
+                                         class="skill-percent">50%</div>
+                                     </div>
+                                 </div>
+                                 <div class="skill-item padd-15">
+                                     <h5>Virtual Assistant</h5>
+                                     <div class="progress">
+                                         <div class="progress-in" style="width: 80%"></div>
+                                         <div
+                                         class="skill-percent">80%</div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="education padd-15">
+                             <h3 class="title">Education</h3>
+                             <div class="row">
+                                 <div class="timeline-box padd-15">
+                                     <div class="timeline shadow-dark">
+                                     <div class="timeline-item">
+                                             <div class="circle-dot"></div>
+                                             <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2023 - Present</h6>
+                                             <h5 class="timeline-title">KIIT UNIVERSITY</h5>
+                                             <p class=" timeline-text">Well,I started my B.tech with Computer science & Engineering in one of the reknown and top
+                                                 ranking University of India i.e <i> <b>Kalinga Institute of Industrial Technology</b></i> which is located in Bhubaneshwor,Odisha.The duration of my bachelor's level graduation is for 4 years <i>(2023A.D-2027A.D)</i></p>
+                                         </div>
+                                         <div class="timeline-item">
+                                             <div class="circle-dot"></div>
+                                             <h6 class="timeline-date"><i class="fa fa-calendar"></i>2020-2022</h6>
+                                             <h4 class="timeline-title">National Infotech College</h4>
+                                             <p class=" timeline-text">Shiromani Tole, Birgunj 44300 </p>
+                                             <p><b>+2 with associate of Science</b></p>
+                                             <p> 3.17 GPA (out of 4.0)</p>
+                                         </div>
+                                         <div class="timeline-item">
+                                             <div class="circle-dot"></div>
+                                             <h6 class="timeline-date"><i class="fa fa-calendar"></i>2014-2020</h6>
+                                             <h4 class="timeline-title">South Zone Secondary School</h4>
+                                             <p class=" timeline-text">Radhemai-13, Birgunj 44300 </p>
+                                             <p><b> From KG TO 10 </b></p>
+                                         </div>
+                                         </div>
+                                 </div>
+                             </div>
+                         </div>
+                         
+                         <div class="experience padd-15">
+                             <h3 class="title">Experinces</h3>
+                             <div class="row">
+                                 <div class="timeline-box padd-15">
+                                     <div class="timeline shadow-dark">
+                                         <div class="timeline-item">
+                                             <div class="circle-dot"></div>
+                                             <h6 class="timeline-date"><i class="fa fa-calendar"></i>NOV 2023 - Present</h6>
+                                             <h4 class="timeline-title">R.Moksha | NGO</h4>
+                                             <p class="timeline-text"> As of my last update in January 2022, I don't have specific information about an NGO called R.moksha. However, if it's an organization that has come into existence after that time, I wouldn't have information about it. If R.moksha is an NGO where you have been working since November 2023, it would be best if you provided details about its mission, activities, and impact on helping needy people. This would help me understand better and describe its work in assisting those in need.</p>
+                                         </div>
+
+                                         <div class="timeline-item">
+                                            <div class="circle-dot"></div>
+                                            <h6 class="timeline-date"><i class="fa fa-calendar"></i>NOV 2024 - Present</h6>
+                                            <h4 class="timeline-title">Kings Agency | Digital Marketing </h4>
+                                            <p class="timeline-text"> As of now, I have been running Kings Agency, where I focus on helping businesses grow through creative branding, automation, and digital solutions. Since launching, I’ve worked with hotels, gyms, restaurants, cafes, and e-commerce stores, providing services like Local Business Branding Kits, scan menus, and automation workflows. My work mainly revolves around making businesses look professional, save time, and operate efficiently. This has allowed clients like Empire Hotel, Hashtag Pizza, Holifit Gym, and Monginis Cake to boost their brand identity and improve overall productivity.</p>
+                                        </div>
+
+                                         <div class="timeline-item">
+                                             <div class="circle-dot"></div>
+                                             <h6 class="timeline-date"><i class="fa fa-calendar"></i>MAY 2019 - JULY 2022</h6>
+                                             <h4 class="timeline-title">LivingWithEnvironment | Organization</h4>
+                                             <p class="timeline-text"> Livingwithenvironment sounds like an organization dedicated to environmental conservation and sustainable living practices rather than directly helping needy people. However, many environmental organizations indirectly contribute to helping those in need by improving living conditions, preserving natural resources, and promoting sustainable development.</p>
+                                         </div>
+
+                                         <div class="timeline-item">
+                                             <div class="circle-dot"></div>
+                                             <h6 class="timeline-date"><i class="fa fa-calendar"></i>OCT 2017 - 2019</h6>
+                                             <h4 class="timeline-title">The Helping Hands | Founder</h4>
+                                             <p class="timeline-text"> This was a group of young social workers of members from all over the Parsa district of Nepal. We provide food , medicines and reliefs during the time of emergency and Pandemic to the needy people.</p>
+                                         </div>
+
+                                         <div class="timeline-item">
+                                             <div class="circle-dot"></div>
+                                             <h6 class="timeline-date"><i class="fa fa-calendar"></i>2015 - Running</h6>
+                                             <h4 class="timeline-title">Learner | Coding</h4>
+                                             <p class=" timeline-text">As a coding learner since 2015, you've traversed a dynamic path of exploration and growth. Beginning with foundational concepts like variables and loops, you swiftly progressed to more complex topics such as algorithms, data structures, and software design principles. Through persistent experimentation and hands-on projects, you honed your skills in diverse programming languages and technologies. </p>
+                                         </div>
+                                         <div class="timeline-item">
+                                             <div class="circle-dot"></div>
+                                             <h6 class="timeline-date"><i class="fa fa-calendar"></i> 2020 - 2021</h6>
+                                             <h5 class="timeline-title">Web-Developer || Freelancher</h5>
+                                             <p class=" timeline-text">Your journey in coding is a testament to the power of self-learning and hands-on experience. Through your dedication and curiosity, you've transcended the confines of traditional education to become a proficient web developer. With no reliance on textbook knowledge alone, you've embraced the challenges of self-learning, leveraging online resources, tutorials, and practical experimentation to expand your skill set.</p>
+                                         </div>
+                                         <div class="timeline-item">
+                                             <div class="circle-dot"></div>
+                                             <h6 class="timeline-date"><i class="fa fa-calendar"></i> Jan 2021 - March 2021</h6>
+                                             <h4 class="timeline-title"> HTML || CSS || </h4>
+                                             <p class=" timeline-text">Successfully developed two portfolio website for Myself. In this website you can find every notes for every topic.</p>
+                                         </div>
+                                         </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="service section" id="services">
+         <div class="container">
+             <div class="row">
+                 <div class="section-title padd-15">
+                     <h2>Services</h2>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="service-item padd-15">
+                     <div class="service-item-inner">
+                         <div class="icon"><i class="fa fa-code"></i></div>
+                         <h4>Web Design & Development</h4>
+                         
+                     </div>
+                 </div>
+                 <div class="service-item padd-15">
+                     <div class="service-item-inner">
+                         <div class="icon"><i class="fa fa-android"></i></div>
+                         <h4>Automation</h4>
+                         
+                     </div>
+                 </div>
+                 <div class="service-item padd-15">
+                     <div class="service-item-inner">
+                         <div class="icon"><i class="fa fa-laptop"></i></div>
+                         <h4>Graphic & Logo Design</h4>
+                         
+                     </div>
+                 </div>
+                 <div class="service-item padd-15">
+                     <div class="service-item-inner">
+                         <div class="icon"><i class="fa fa-automobile"></i></div>
+                         <h4>Concept Development</h4>
+                         
+                     </div>
+                 </div>
+                 <div class="service-item padd-15">
+                     <div class="service-item-inner">
+                         <div class="icon"><i class="fa fa-film"></i></div>
+                         <h4>Video Editing </h4>
+                         
+                     </div>
+                 </div>
+                 <div class="service-item padd-15">
+                     <div class="service-item-inner">
+                         <div class="icon"><i class="fa fa-address-card"></i></div>
+                         <h4>Bot Management System</h4>
+                         
+                     </div>
+                 </div>
+                 </div>
+             <center><div class="buttons padd-15">
+                 <a href="https://www.linkedin.com/in/aashish-kumar-das-ba17372aa/" class="btn">Hire Me</a>
+             </div></center>
+         </div>
+     </section>
+     <section class="portfolio section" id="projects">
+         <div class="container">
+             <div class="row">
+                 <div class="section-title padd-15">
+                     <h2>Projects</h2>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="portfolio-filter padd-15">
+                     <button type="button" class="active" data-filter="all">All</button>
+                     <button type="button" data-filter="Web Design">Web Design</button>
+                     <button type="button" data-filter="Bots">Bots</button>
+                     <button type="button" data-filter="Apps">Apps</button>
+                     <button type="button" data-filter="Games">Games</button>
+                     <button type="button" data-filter="Others">Others</button>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="portfolio-item padd-15" data-category="Bots">
+                     <a href="https://t.me/KiitNewzBot" target="_blank">
+                         <div class="portfolio-item-inner shadow-dark">
+                             <div class="portfolio-img">
+                                 <img src="images/bot.png" alt="Telegram Bot Project">
+                             </div>
+                             <div class="portfolio-info">
+                                 <h4>Library Management Bot</h4>
+                                 <div class="icon">
+                                     <i class="fa fa-search"></i>
+                                 </div>
+                             </div>
+                         </div>
+                     </a>
+                 </div>
+                 <div class="portfolio-item padd-15" data-category="Bots">
+                     <a href="https://t.me/KiitNewzBot" target="_blank">
+                         <div class="portfolio-item-inner shadow-dark">
+                             <div class="portfolio-img">
+                                 <img src="images/Bot2.jpg" alt="Telegram Bot Project">
+                             </div>
+                             <div class="portfolio-info">
+                                 <h4>KIITNewz Bot</h4>
+                                 <div class="icon">
+                                     <i class="fa fa-search"></i>
+                                 </div>
+                             </div>
+                         </div>
+                     </a>
+                 </div>
+                 </div>
+         </div>
+     </section>
+     
+     <section class="clients section" id="clients">
+         <div class="container">
+             <div class="row">
+                 <div class="section-title padd-15">
+                     <h2>My Work Till Date</h2>
+                 </div>
+             </div>
+
+             <div class="row">
+                 <div class="service-item padd-15"> <div class="service-item-inner">
+                         <div class="icon"><i class="fa fa-briefcase"></i></div>
+                         <h4>10+</h4>
+                         <p><strong>Local Businesses Empowered</strong></p>
+                     </div>
+                 </div>
+                 <div class="service-item padd-15">
+                     <div class="service-item-inner">
+                         <div class="icon"><i class="fa fa-line-chart"></i></div>
+                         <h4>2M+</h4>
+                         <p><strong>Social Media Reach Achieved</strong></p>
+                     </div>
+                 </div>
+                 <div class="service-item padd-15">
+                     <div class="service-item-inner">
+                         <div class="icon"><i class="fa fa-bolt"></i></div>
+                         <h4>60%</h4>
+                         <p><strong>Faster Client Response Time</strong></p>
+                     </div>
+                 </div>
+             </div>
+             
+             <div class="row">
+                <div class="section-title padd-15">
+                    <h2>What Our Clients Say</h2>
+                </div>
+            </div>
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    <div class="testimonial-marquee-item">
+                        <div class="blog-item-inner shadow-dark">
+                            <div class="blog-info">
+                                <p class="blog-description">"Kings Agency delivered beyond expectations — our menu design boosted orders by 25%."</p>
+                                <p class="blog-tags" style="text-align: right; font-style: italic;"><b>- Manager</b>, Hashtag Pizza</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-marquee-item">
+                        <div class="blog-item-inner shadow-dark">
+                            <div class="blog-info">
+                                <p class="blog-description">"Aashish’s automation for our member check-ins and marketing saved us countless hours every week. Highly recommended!"</p>
+                                <p class="blog-tags" style="text-align: right; font-style: italic;"><b>- Owner</b>, Holifit Gym</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-marquee-item">
+                        <div class="blog-item-inner shadow-dark">
+                            <div class="blog-info">
+                                <p class="blog-description">"Kings Agency delivered beyond expectations — our menu design boosted orders by 25%."</p>
+                                <p class="blog-tags" style="text-align: right; font-style: italic;"><b>- Manager</b>, Pv Salon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-marquee-item">
+                        <div class="blog-item-inner shadow-dark">
+                            <div class="blog-info">
+                                <p class="blog-description">""Automation by Aashish made my work much easier and saved me a lot of time."</p>
+                                <p class="blog-tags" style="text-align: right; font-style: italic;"><b>- Owner</b>, Zoxgn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+             <div class="row">
+                 <div class="section-title padd-15">
+                     <h2>Brands I've Worked With</h2>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="portfolio-item padd-15">
+                     <div class="portfolio-item-inner shadow-dark" style="text-align: center;">
+                         <div class="portfolio-img client-logo">
+                             <a href="#" target="_blank">
+                             <p style="margin-top:10px;"><strong>Mughalmings Restaurant</strong></p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="portfolio-item padd-15">
+                     <div class="portfolio-item-inner shadow-dark" style="text-align: center;">
+                         <div class="portfolio-img client-logo">
+                             <a href="#" target="_blank">
+                             <p style="margin-top:10px;"><strong>Hashtag Pizza</strong></p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="portfolio-item padd-15">
+                     <div class="portfolio-item-inner shadow-dark" style="text-align: center;">
+                         <div class="portfolio-img client-logo">
+                             <a href="#" target="_blank">
+                              <p style="margin-top:10px;"><strong>Pv Salon</strong></p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="portfolio-item padd-15">
+                     <div class="portfolio-item-inner shadow-dark" style="text-align: center;">
+                         <div class="portfolio-img client-logo">
+                             <a href="#" target="_blank">
+                             <p style="margin-top:10px;"><strong>Monginis Cake</strong></p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark" style="text-align: center;">
+                        <div class="portfolio-img client-logo">
+                            <a href="#" target="_blank">
+                             <p style="margin-top:10px;"><strong>Zoxgn</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark" style="text-align: center;">
+                        <div class="portfolio-img client-logo">
+                            <a href="#" target="_blank">
+                             <p style="margin-top:10px;"><strong>Holifit Gym</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark" style="text-align: center;">
+                        <div class="portfolio-img client-logo">
+                            <a href="#" target="_blank">
+                             <p style="margin-top:10px;"><strong>Odisha Meat</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!--div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark" style="text-align: center;">
+                        <div class="portfolio-img client-logo">
+                            <a href="#" target="_blank">
+                             <p style="margin-top:10px;"><strong>The Arvn Collection</strong></p>
+                        </div>
+                    </div>
+                </div-->
+                 <!--div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark" style="text-align: center;">
+                        <div class="portfolio-img client-logo">
+                            <a href="#" target="_blank"><img src="https://via.placeholder.com/200x100/f2f2f2/666666?text=Holifit+Gym" alt="Holifit Gym"></a>
+                             <p style="margin-top:10px;"><strong>Pv Salon</strong></p>
+                        </div>
+                    </div>
+                </div-->
+             </div>
+         </div>
+     </section>
+     <section class="blog section" id="blog">
+         <div class="container">
+             <div class="row">
+                 <div class="section-title padd-15">
+                     <h2>Articles</h2>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="blog-item padd-15">
+                     <div class="blog-item-inner shadow-dark">
+                         <div class="blog-img">
+                             <img src="images/b1.jpg" alt="blog">
+                             <div class="blog-date">
+                                 22th Dec 2023
+                             </div>
+                         </div>
+                         <div class="blog-info">
+                             <h4 class="blog-title">आरती साहको परिवारजनलाई मोक्ष फाउन्डेसनद्वारा जाडोबाट बच्न न्यानो कपडा सहितको सामग्री सहयोग </h4>
+                             <p class="blog-description">अध्यक्ष रजनीश प्रमदिन सनातनीको अध्यक्षतामा फाउन्डेसनले करीब १५ हजार मूल्य बराबरको न्यानो कपडा सामग्री – १ थान ब्लांकेट ,१ थान सुत्ने टेन्ट ,१ थान ज्याकेट ,१ थान थरमकोट आदि न्यानो कपडा सहितको सामग्री आरती साहको बुबा बिनोद प्रसाद साहलाई सहयोग गरेको कुरा अलोक कुशवाहाले बताएका छन्।</p>
+                             <p class="blog-tags">Tags : <a href="https://www.sirahatimes.com/news/6445?fbclid=IwAR1t24mVRt45ZyLwoQRYIlwzgYfTFffP5gfsIRrXwB01BTRrF03p_Ik3-rI">NGO News</a> , <a href="">R.Moksha</a>
+                             </p>
+                             <center><a href="https://www.sirahatimes.com/news/6445?fbclid=IwAR1t24mVRt45ZyLwoQRYIlwzgYfTFffP5gfsIRrXwB01BTRrF03p_Ik3-rI"><button class="readbtn"> Read More</button></a></center>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+         </div>
+     </section>
+     <section class="contact section" id="contact">
+         <div class="container">
+             <div class="row">
+                 <div class="section-title padd-15">
+                     <h2>Contact Me</h2>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="contact-info-item padd-15">
+                     <div class="icon"><i class="fa fa-phone"></i></div>
+                     <h4>Call Me On</h4>
+                     <p>+91 9234985402</p>
+                 </div>
+                 <div class="contact-info-item padd-15">
+                     <div class="icon"><i class="fa fa-map-marker"></i></div>
+                     <h4>Address</h4>
+                     <p>Bhubaneswar, Odisha</p>
+                 </div>
+                 <div class="contact-info-item padd-15">
+                     <div class="icon"><i class="fa fa-envelope"></i></div>
+                     <h4>Email</h4>
+                     <p>aashishkumards123@gmail.com</p>
+                 </div>
+                 </div>
+             <form action="https://api.web3forms.com/submit" method="POST"" class="contact-form">
+  
+  <input type="hidden" name="access_key" value="e8f9f516-5e47-41ad-8b7b-a5cb76d182f7">
+  <div class="form-item col-6">
+    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+  </div>
+
+  <div class="form-item col-6">
+    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+  </div>
+
+  <div class="form-item col-12">
+    <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+  </div>
+
+  <div class="form-item col-12">
+    <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
+  </div>
+
+  <div class="form-item col-12">
+    <button type="submit" class="btn">Send Message</button>
+  </div>
+</form>
+
+     </div>
+     </div>
+ <div class="lightbox">
+         <div class="lightbox-content">
+             <div class="lightbox-close">&times;</div>
+             <img src="images/portfolio/2.jpg" class="lightbox-img" onclick="nextItem()">
+             <div class="lightbox-caption">
+                 <div class="caption-text"></div>
+                 <div class="caption-counter"></div>
+             </div>
+         </div>
+         <div class="lightbox-controls">
+             <div class="prev-item" onclick="prevItem()"> <i class="fa fa-angle-left"></i></div>
+             <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+         </div>
+     </div>
+ <div class="style-switcher">
+     <div class="toggle-style-switcher">
+         <i class="fa fa-cog fa-spin"></i>
+     </div>
+     <h5>Style Switcher</h5>
+     <ul>
+         <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839" onclick="setActiveStyle('pink')"></a></li>
+         <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3" onclick="setActiveStyle('blue')"></a></li>
+         <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f" onclick="setActiveStyle('orange')"></a></li>
+         <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400" onclick="setActiveStyle('yellow')"></a></li>
+         <li><a href="javascript:void(0);" title="green" style="background-color: #72b626" onclick="setActiveStyle('green')"></a></li>
+     </ul>
+     <h5>Select Mode</h5>
+     <label>
+         <input type="radio" class="body-skin" name="body-style" value="light" checked="true">
+         Light
+     </label>
+     <label>
+         <input type="radio" class="body-skin" name="body-style" value="dark">
+         Dark
+     </label>
+</div>
+<script src="js/script.js"></script>
+
+<script src="js/styleSwitcher.js"></script>
+
+</body>
+</html>

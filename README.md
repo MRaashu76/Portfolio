@@ -29,7 +29,7 @@ To run this project locally, follow these simple steps:
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd abhikush47.github.io
+    cd Aashish.github.io
     ```
 3.  **Open `index.html`:**
     Open the `index.html` file in your preferred web browser to view the portfolio.
