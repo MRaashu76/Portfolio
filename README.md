@@ -42,8 +42,4 @@ This project is a personal portfolio, so I'm not actively seeking contributions.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## ☕ Support
 
-If you like my work, you can support me by buying me a coffee! Your support helps me keep learning and creating.
-
-[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20Me%20A%20Coffee&emoji=&slug=abhi_kush&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/abhi_kush)
