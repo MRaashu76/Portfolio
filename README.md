@@ -25,7 +25,7 @@ To run this project locally, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/abhikush47/abhikush47.github.io.git](https://github.com/abhikush47/abhikush47.github.io.git)
+    git clone [https://github.com/MRaashu76/MRaashu76.github.io.git](https://github.com/MRaashu76/MRaashu76.github.io.git)
     ```
 2.  **Navigate to the project directory:**
     ```bash
